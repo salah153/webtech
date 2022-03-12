@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="stylesheet.css">
+<title> [WebTech] Einführung in WebTechnologien </title>
+<style>
+  html{width: 1000px;}
+header, header p, article, section, aside, nav, footer, li{
+border: 1px solid black;
+margin: 5px;
+padding: 5px;
+}
+p{ margin: 0; }
+header, main, nav{ margin-bottom: 10px; }
+#title{
+font-size: 3rem;
+background-color: blue;
+}
+.title{
+font-size: 3rem;
+background-color: red;
+}
+nav, aside{
+width: 140px;
+float: right;
+}
+nav, aside, article{
+min-height:200px;
+background-color: yellow;
+}
+nav{ float: left; }
+nav ul{
+padding: 0;
+list-style: none;
+}
+.first{ background-color: orange; }
+nav ul > li { background-color: green; }
+main{ margin-left: 150px; }
+main > article{
+width: 637px;
+float: left;
+background-color: red;
+}
+footer{
+clear: both;
+background-color: violet;
+}
+</style>
+</head>
+<body>
+<header>
+<p id="title" class="title">WebTech 01</p>
+<p class="subtitle" ></p>Statische Webseiten als Einstieg in die WebTechnologien</p>
+</header>
+<nav class="bgColorBlue">
+<ul>
+<li class="first">Was lernen wir</li>
+<li class="second" >Wie geht es weiter</li>
+</ul>
+</nav>
+<main>
+<article>
+<h1>Was lernen wir</h1>
+<section class="first">
+Zunächst wird HTML ...
+</section>
+<section class="second">
+Anschließend betrachten wir CSS ...
+</section>
+</article>
+<aside>
+<p>Hier könnten Ihre Links stehen.</p>
+</aside>
+</main>
+<footer>Copyright by Einführung in WebTechnologien 2021/2022</footer>
+</body>
+</html>
